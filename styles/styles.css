@@ -1,0 +1,124 @@
+header
+
+
+{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color:navajowhite;
+    border:1px solid brown;
+    
+    
+    
+}
+
+nav
+{
+    background-color: brown;
+    padding: 5px;
+    
+    
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+nav ul li
+
+{
+
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border:2px solid black; 
+    border-radius: 10px;
+    
+    
+}
+#content
+
+{
+    float: left;
+    width: 80%;
+    margin-right: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px;
+       
+    
+}
+
+#bigPic
+{
+
+    width: 100%;
+    
+    
+    
+    
+}
+
+aside  
+{
+  
+    border:.5px solid yellow;
+    width: 18%;
+    float: right;
+    padding: 2px;
+    
+       
+
+}
+aside ul li a
+{
+color: blue;
+text-decoration: none;
+}
+
+aside ul li
+{
+    list-style-type: none; 
+}
+
+.col_detail
+{
+   
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    background: black;
+    color: white;
+    
+     
+    
+    
+}
+#chefs
+
+{
+   float: left;
+    text-align: center;
+    
+}
+
+footer{
+    clear:both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    
+}
