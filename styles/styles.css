@@ -2,7 +2,7 @@ header
 
 
 {
-    background-image: url(../images/header_image.jpg);
+    background-image: url(../images/carrots.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -15,7 +15,7 @@ header
 
 nav
 {
-    background-color: brown;
+    background-color: #a86832;
     padding: 5px;
     
     
@@ -58,8 +58,8 @@ nav ul li
 
 #bigPic
 {
-
-    width: 100%;
+    float: right;
+    width: 80%;
     
     
     
@@ -92,9 +92,9 @@ aside ul li
 {
    
     column-count: 3;
-    column-rule: 1px solid white;
-    column-gap: 50px;
-    padding: 2px;
+    column-rule: 5px solid white;
+    column-gap: 10px;
+    padding: 15px;
     background: black;
     color: white;
     
@@ -120,5 +120,67 @@ footer{
     width: 100%;
     background-color: grey;
     text-align: center;
+    
+}
+.manager {
+    width:100%;
+    float:right;
+}
+
+.video {
+    width: 50%;
+    float: left;
+    
+}
+
+#aboutus {
+    float: left
+}
+
+.backgroundImageB {
+    background-image: url(../images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin:2px;
+    
+}
+.backgroundImageC {
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin:2px;
+    
+}
+.backgroundImageD {
+    background-image: url(../images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin:2px;
+    
+}
+
+.col_article {
+    
+      
+
+    
+   
+   
+    
+}
+
+
+
+.menutext {
+        text-align: center;
+    text-transform: full-width;
+    background-color: black;
+    color: white;
     
 }
